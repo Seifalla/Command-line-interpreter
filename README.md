@@ -14,7 +14,7 @@ Description:
 
 This software runs on Linux 4.4.0-34-generic x86_64 (DMB 005)
 
-To compile use the attached makefile
+To compile, use the attached makefile
 
 This program supports the following commands:
 
