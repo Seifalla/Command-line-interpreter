@@ -12,6 +12,8 @@ File names:
 
 Description:
 
+This software runs on Linux 4.4.0-34-generic x86_64 (DMB 005)
+
 This program supports the following commands:
 
 set variable value
