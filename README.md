@@ -44,7 +44,7 @@ tovar variable cmd param*
 
 The tovar command executes the program cmd along with its parameters, if any, and assigns its output to the variable specified by variable. Like the do command, the variable PATH contains a colon-separated list of directories where nsh looks for the file to be executed. The file name to be executed may also be specified as a full path name or a name relative to the current directory.
 
-The two main components of this projects are the scanner and the parser. I used the software lex to generate the scanner. The parser was written by hand. The kind of parser I wrote is the recursive-descent parser. It is based on the 
+The two main components of this project are the scanner and the parser. I have used a commercial software to build the scanner. The recursive-descent parser has been written by hand. It is based on the 
 following context-free grammar:
 
 start -> keywords
@@ -76,9 +76,4 @@ Done -> “done”
 Limitations:
 
 - directories' names must not be surrounded by double-quotes.
-- variable substitution is done only in the dir command
-- The "do" command doesn't look up the file name in the list of directories(PATH)
-
-
-
-
+- variable substitution is done only when executing the dir command.
