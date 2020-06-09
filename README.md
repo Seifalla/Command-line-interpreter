@@ -25,7 +25,9 @@ Here, variable is any reasonable variable name (starting with a letter, continui
 prompt newPrompt
 
 Set the shell prompt to newPrompt, which is a token. The initial prompt in nsh is nsh > . (There is a space after the >.)
+
 dir directoryName
+
 This command changes the current directory to directoryName. The dir command must have a single parameter. See the getwd(3) and chdir(2) system calls. the directoryName may be either absolute (starting with /) or relative (not starting with /).
 procs
 
