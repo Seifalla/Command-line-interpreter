@@ -21,6 +21,7 @@ This program supports the following commands:
 set variable value
 
 Here, variable is any reasonable variable name (starting with a letter, continuing with letters or numbers), and value is a token. It is conventional for users to represent variables in ALL CAPITALS, but nsh does not enforce this convention. Variable names are case-sensitive, that is, home and HOME represent different variables. The effect of this command is to associate the name with the value of the variable in a data structure inside nsh.
+
 prompt newPrompt
 
 Set the shell prompt to newPrompt, which is a token. The initial prompt in nsh is nsh > . (There is a space after the >.)
