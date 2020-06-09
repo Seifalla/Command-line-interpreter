@@ -29,6 +29,7 @@ Set the shell prompt to newPrompt, which is a token. The initial prompt in nsh i
 dir directoryName
 
 This command changes the current directory to directoryName. The dir command must have a single parameter. See the getwd(3) and chdir(2) system calls. the directoryName may be either absolute (starting with /) or relative (not starting with /).
+
 procs
 
 nsh lists all processes running in the background. nsh keeps a list and does not rely on external programs like ps to create its output.
